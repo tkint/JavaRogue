@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #000;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rogue.controller.view.CreditsController">
+    <stylesheets>
+        <URL value="@/rogue/view/css/credits.css" />
+    </stylesheets>
+   <children>
+      <VBox fx:id="creditsList" alignment="CENTER" fillWidth="false" spacing="10.0" />
+   </children>
+</AnchorPane>
